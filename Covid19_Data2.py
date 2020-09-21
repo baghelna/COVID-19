@@ -86,6 +86,6 @@ def CovidCases():
         fig.update_layout(dict1=layout, overwrite=True)
         fig.add_trace(go.Bar(name='World Data', x=x, y=y))
         st.plotly_chart(fig, use_container_width=True)
-
+    st.write('©Nikeshsingh Baghel ©Mehnaz Sheikh')
 if __name__ == "__main__":
     CovidCases()
