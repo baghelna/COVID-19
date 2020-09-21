@@ -16,3 +16,4 @@ if(sel == "COVID-19"):
         pass
 else:
     pass
+st.write('©Nikeshsingh Baghel ©Mehnaz Sheikh')
