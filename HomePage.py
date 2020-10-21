@@ -1,7 +1,7 @@
 import streamlit as st
 import Analyser as ast
 import Covid19_Data2 as cvd
-import DiabetesAnalyser as da
+#import DiabetesAnalyser as da
 
 sel = st.sidebar.selectbox("Select as per requirement: ",["Home Page","COVID-19","Diabetes"],index = 0)
 
@@ -19,6 +19,7 @@ if(sel == "Home Page"):
 
     '''
     st.markdown(page_bg_img, unsafe_allow_html=True)
+    st.write("** This webpage is incomplete **")
     #st.write("# WELCOME TO HEALTHCARE SYSTEM")
     #st.write("Choose from options on left")
 if(sel == "COVID-19"):
