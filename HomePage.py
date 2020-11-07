@@ -1,7 +1,7 @@
 import streamlit as st
 import Analyser as ast
 import Covid19_Data2 as cvd
-#import DiabetesAnalyser as da
+import DiabetesAnalyser as da
 
 sel = st.sidebar.selectbox("Select as per requirement: ",["Home Page","COVID-19","Diabetes"],index = 0)
 
